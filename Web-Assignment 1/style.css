@@ -1,0 +1,144 @@
+
+body{
+
+     background-image: url('cloud.jpeg.jpeg');
+     background-repeat: no-repeat;
+     background-size: cover;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a{
+
+    text-decoration: none;
+    color:blanchedalmond;
+
+}
+.d{
+    height: 270px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size:larger;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(143, 62, 139);
+    background-color:blanchedalmond;
+    border-radius: 10px;
+
+    padding-bottom: 20px;
+    margin-top: 30px;
+   
+    
+}
+.d1{
+    font-size:large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    text-align: left;
+    color: rgb(86, 34, 123);
+    background-color: blanchedalmond;
+    border-radius: 10px;
+
+    padding-bottom: 20px;
+    margin-top: 150px;
+     margin-bottom: 200x;
+}
+.dp{
+    margin-left: 40%;
+
+
+}
+.d2{
+  height: 240px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: medium;
+  font-weight: bold;
+  text-align: center;
+
+  color: rgb(197, 110, 56);
+  background-color: blanchedalmond;
+  padding-bottom: 20px;
+  border-radius: 10px;
+
+  margin-top: 100px;
+  margin-bottom: 100px;
+  
+
+
+}
+.d3{
+    height: 350px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  
+    color:rgb(174, 61, 84);
+    background-color: blanchedalmond;
+    border-radius: 10px;
+
+    padding-bottom: 20px;
+    margin-top: 150px;
+     margin-bottom: 100px;
+}
+.d3 a{
+    color: rgb(174, 61, 84);
+    
+}
+.d2 a{
+    text-align: center;
+    color: rgb(20, 89, 227);
+}
+
+
+header{
+
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+header{
+
+    font-size: 25px;
+}
+header ul{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+   header ul li{
+    margin-right: 30px; 
+   
+   }
+
+   header ul li a{
+    padding: 6px 15px;
+    border-radius: 20px;
+   }
+   
+   header ul li a:hover{
+    background: darksalmon;
+   
+   }
+   @media (min-width:992px) {
+     
+   }
+ 
+@media (min-width:768px) {
+    .d{
+        height: 350px;
+         
+   }  
+   .dp{
+    padding-right: 50px;
+    
+   }
+   }
+   @media (min-width:576px) {
+    .d{
+        height: 450px;
+        
+     
+     
+   }
+}
